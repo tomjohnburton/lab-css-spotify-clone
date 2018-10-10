@@ -6,3 +6,186 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+  margin: 0px
+}
+
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh -105px);
+  border-bottom: 1px solid black
+}
+
+.navlogo {
+  padding: 20px;
+  padding-left: 40px
+}
+
+
+.navlogo img {
+  width: 260px;
+
+}
+
+
+.navopt {
+  display: flex;
+  font-size: 27px;
+  padding-right: 30px;
+  font-weight: 300;
+}
+.navopt div a {
+  color: black;
+  text-decoration: none
+}
+.navopt div {
+  padding-left: 26px
+}
+
+.main {
+  display: flex;
+  background-image: url("/starter-code/images/landing.jpg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+
+  height: calc(100vh - 105px);
+}
+
+.textbox {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.textbox h1 {
+  font-size: 100px;
+  font-weight: 400;
+  margin: auto
+}
+
+.text-2nd {
+  width: 70%;
+  align-self: center;
+}
+
+.textbox h2 {
+  font-size: 40px;
+  font-weight: 100
+}
+
+.whatsonmain {
+  margin-top: 40px
+}
+
+.whatson {
+  margin-bottom: 100px
+  
+}
+
+.whatson h2 {
+  text-align: center;
+  font-size: 45px;
+  border-bottom: 5px solid #00B172;
+  width: 24%;
+  margin: 0 auto;
+  font-weight: 550;
+  padding-bottom: 11px;
+}
+
+.icons div div img {
+  height: 130px;
+}
+
+.icons div div.txt {
+  text-align: center;
+  font-weight: 50
+}
+.icons div div h3 {
+
+}
+.icons div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 62%
+}
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: space-between;
+  margin: 0 auto
+}
+
+.txt h3 {
+  font-size: 30px;
+  font-weight: 100
+}
+
+.txt span {
+  color: #00B172;
+  font-size: 37px;
+  font-weight: 600;
+
+
+}
+
+.yeezymain {
+
+  background-color: #00B172;
+  margin: 50px 40px;
+  background-image: url("/starter-code/images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  display: flex;
+  justify-content: space-between;
+  ;
+  align-items: center;
+  padding-left: 62px;
+}
+
+.yeezytext {
+  color: white;
+  width: 38%;
+  margin: 0 auto;
+  padding-left: px
+}
+
+.yeezytext h3 {
+  font-size: 45px;
+  padding-bottom: 10px;
+  border-bottom: 4px white solid
+}
+
+.yeezytext h4 {
+  font-size: 36px;
+  width: 60%
+}
+
+.yeezytext p {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.yeezypic img {
+  width: 65%;
+  padding-top: 20px;
+  padding-left: 40px
+}
